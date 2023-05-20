@@ -1,0 +1,128 @@
+/*---------- FORMATAÇÕES GERAIS ----------*/
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background: #e6e6e6;
+}
+
+/*----------------- MENU -----------------*/
+
+#area-menu {
+    color: white;
+    background: #8B0000;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+#area-logo #logo {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#area-links {
+    padding: 10px;
+}
+
+#subheader {
+    color: white;
+    background: #B22222;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+
+/*-------------- LINKS MENU --------------*/
+
+#area-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#area-links a {
+    padding: 3px 8px;
+}
+
+#area-links a:hover {
+    color: #8B0000;
+    background: white;
+    border-radius: 5px;
+}
+
+a {
+    color: yellow;
+}
+
+/*------------ HOME ------------*/
+
+#desenvolvendo {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 591px;
+}
+
+/*------------ RODAPÉ ------------*/
+
+#rodape {
+    color: white;
+    background: #B22222;
+    text-align: center;
+}
+
+#desenvolvedores {
+    padding: 20px;
+}
+
+#redes-sociais {
+    padding: 0px 0px 20px 0px;
+}
+
+.icon-ig {
+    width: 18px;
+    transform: translate(0px,4px);
+}
+
+.icon-in {
+    width: 16px;
+    transform: translate(0px,1px);
+}
+
+#direitos {
+    background: #8B0000;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/*------------ LINKS RODAPÉ ------------*/
+
+footer {
+    font-size: 0.9em;
+}
+
+#redes-sociais a {
+    color: white;
+    text-decoration: none;
+}
+
+#redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.instagram {
+    margin-left: 1px;
+}
+
+.linkedin {
+    margin-left: 4px;
+}
+
+/*------------ CORES ------------*/
+.cor-logo {
+    color: rgb(214, 214, 214);
+}
