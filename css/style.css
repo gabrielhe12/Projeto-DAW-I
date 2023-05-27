@@ -6,6 +6,10 @@ body {
     background: #e6e6e6;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*---------------------------------------------- MENU ----------------------------------------------*/
 
 #area-menu {
@@ -72,12 +76,50 @@ body {
 
 #desenvolvendo {
     color: #8B0000;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     text-align: center;
-    line-height: 591px;
 }
 
+#Cadastro {
+    color: #8B0000;
+    font-weight: bold;
+    border: 2px solid #8B0000;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+    max-width: 500px;
+}
+
+#msg {
+    width: 490px;
+    height: 150px;
+}
+
+.form {
+    width: 490px;
+}
+
+legend {
+    text-align: center;
+}
+
+button {
+    width: 245px;
+    border-color: #B22222;
+    background: linear-gradient( to top, #8B0000, #B22222, #e47f7f);
+    box-shadow: 3px 3px #470000;
+    color: black;
+    display: inline;
+}
+
+button:hover {
+    background: linear-gradient( to left, #8B0000, #B22222, #e47f7f);
+    color: white;
+}
 /*--------------------------------------------- RODAPÉ ---------------------------------------------*/
 
 #area-rodape {
