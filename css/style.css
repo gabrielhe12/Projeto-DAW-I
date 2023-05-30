@@ -33,17 +33,15 @@ a {
 #area-logo #logo {
     font-size: 2.5em;
     font-weight: bold;
+    text-shadow: -3px -3px rgb(0, 0, 0);
 }
 
 #logo .games {
-    color: darksalmon;
+    color: rgb(204, 83, 83);
 }
 
 #area-logo #logo:hover {
-    position: relative;
-    top: 3px;
-    left: 3px;
-    text-shadow: -3px -3px black;
+    text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 /*----------- ÁREA NAVEGAÇÃO -----------*/
@@ -113,14 +111,13 @@ a {
     padding: 4px 7px;
     border: 1px solid white;
     border-radius: 7px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #div-chat #botao-atendimento:hover {
     color: #B22222;
     background: white;
     border-color: #B22222;
-    box-shadow: -2px -2px;
 }
 
 #div-sac a {
@@ -168,7 +165,6 @@ a {
     color: #B22222;
     background: white;
     border-color: #B22222;
-    box-shadow: -2px -2px;
 }
 
 #div-atendimento h3 {
@@ -206,7 +202,7 @@ a {
 }
 
 #coluna1-rodape {
-    margin-left: 20%;
+    margin-left: 25%;
     width: 80px;
 }
 
@@ -230,7 +226,7 @@ a {
     border-radius: 100%;
     position: relative;
     top: 70px;
-    left: 60px;
+    left: 300px;
 }
 
 #botao-voltar img {
