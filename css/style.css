@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
-    margin: 0px;
+    margin: 0%;
     background: #e6e6e6;
 }
 
@@ -33,7 +33,7 @@ a {
 #area-logo #logo {
     font-size: 2.5em;
     font-weight: bold;
-    text-shadow: -3px -3px rgb(0, 0, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 #logo .games {
@@ -41,7 +41,7 @@ a {
 }
 
 #area-logo #logo:hover {
-    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-shadow: -3px -3px rgb(0, 0, 0);
 }
 
 /*----------- ÁREA NAVEGAÇÃO -----------*/
@@ -77,30 +77,98 @@ a {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    line-height: 591px;
+    line-height: 80vh;
 }
 
-/*---------------------------------------------- CONTATO ----------------------------------------------*/
+/*-------------------------------------------- NOVIDADES --------------------------------------------*/
+
+#pg-novidades {
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#pg-novidades h1, h2 {
+    color: #8B0000;
+}
+
+#pg-novidades p {
+    font-size: 1.15em;
+}
+
+#titulo-principal {
+    text-align: center;
+}
+
+#texto-principal {
+    margin-bottom: 130px;
+}
+
+.div-novidade {
+    clear: both;
+}
+
+.vazio-titulo {
+    float: left;
+    width: 560px;
+    height: 1px;
+    margin-right: 1%;
+}
+
+.titulo-novidade {
+    float: left;
+    width: 900px;
+    text-align: center;
+}
+
+.video {
+    float: left;
+    margin-bottom: 130px;
+    clear: both;
+}
+
+.video2 {
+    float: right;
+    margin-bottom: 130px;
+    clear: both;
+}
+
+.novidade {
+    float: left;
+    width: 900px;
+    margin: 1%;
+    text-align: justify;
+}
+
+.novidade2 {
+    float: right;
+    width: 900px;
+    margin: 1%;
+    text-align: justify;
+}
+
+/*-------------------------------------------- CONTATO ----------------------------------------------*/
 
 #pg-contato {
-    margin: 20px;
+    margin-top: 30px;
+    margin-left: 11%;
 }
 
-#contato h2,#contato h3 {
+#pg-contato h2,#pg-contato h3 {
     color: #8B0000;
-    margin: 0px;
+    margin: 0%;
 }
 
 #header-contato {
-    margin: 0px 0px 20px 0px;
+    margin: 0% 0% 1% 0%;
 }
 
 .div-contato {
     background: white;
-    width: 570px;
+    width: 40%;
     float: left;
-    margin: 0px 20px 20px 0px;
-    padding: 20px;
+    margin: 0% 1% 1% 0%;
+    padding: 1.5%;
     border: 1px solid #8B0000;
     border-radius: 10px;
 }
@@ -120,21 +188,53 @@ a {
     border-color: #B22222;
 }
 
+#icone-chat {
+    float: left;
+    margin-right: 4px;
+    width: 20px;
+    position: relative;
+    top: 2px;
+}
+
+#icone-sac {
+    float: left;
+    margin-right: 4px;
+    width: 22px;
+}
+
+#icone-faleconosco {
+    float: left;
+    width: 27px;
+    position: relative;
+    bottom: 3px;
+    right: 2px;
+}
+
+#icone-atendimento {
+    float: left;
+    width: 23px;
+    margin-right: 2px;
+    position: relative;
+    bottom: 1px;
+}
+
 #div-sac a {
     color: #8B0000;
     font-weight: bold;
 }
 
 #div-faleconosco, #div-atendimento {
-    width: 1200px;
+    width: 84%;
+}
+
+#div-faleconosco a {
+    color: #8B0000;
+    font-weight: bold;
 }
 
 #div-faleconosco p {
-    margin: 0px;
-}
-
-#div-atendimento {
-
+    margin-bottom: 0px;
+    clear: both;
 }
 
 #div-atendimento label {
@@ -147,7 +247,7 @@ a {
 }
 
 #div-atendimento .input-form {
-    width: 490px;
+    width: 45%;
     margin-bottom: 20px;
 }
 
@@ -184,6 +284,11 @@ a {
     clear: both;
 }
 
+#area-rodape a {
+    color: white;
+    text-decoration: none;
+}
+
 /*-------------- RODAPÉ 1 --------------*/
 
 #rodape1 {
@@ -191,10 +296,10 @@ a {
 }
 
 .coluna-rodape1 {
-    width: 190px;
-    padding: 20px;
+    width: 15%;
+    padding: 1.5%;
     float: left;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .coluna-rodape1 h3 {
@@ -202,8 +307,7 @@ a {
 }
 
 #coluna1-rodape {
-    margin-left: 25%;
-    width: 80px;
+    margin-left: 20%;
 }
 
 .coluna-rodape1 #area-links a {
@@ -225,8 +329,8 @@ a {
     height: 50px;
     border-radius: 100%;
     position: relative;
-    top: 70px;
-    left: 300px;
+    top: 60px;
+    left: 50px;
 }
 
 #botao-voltar img {
@@ -260,11 +364,6 @@ a {
     position: relative;
     top: 2px;
     left: 1px;
-}
-
-#rodape2 a {
-    color: white;
-    text-decoration: none;
 }
 
 #rodape2 a:hover {
