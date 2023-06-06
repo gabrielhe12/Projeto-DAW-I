@@ -72,12 +72,27 @@ a {
 
 /*---------------------------------------------- HOME ----------------------------------------------*/
 
-#desenvolvendo {
+#pg-home {
+  margin-left: 10%;
+  margin-top: 30px;
+  width: 80%;
+}
+
+#pg-home h1,h2 {
   color: #8b0000;
-  font-size: 1.5em;
-  font-weight: bold;
+}
+
+#pg-home p {
+  font-size: 1.15em;
+}
+
+#RPG, #Indie, #FPS, #Action {
+  display: inline-block;
+  margin: 2%;
+}
+
+#pg-home h2 {
   text-align: center;
-  line-height: 80vh;
 }
 
 /*--------------------------------------------- SOBRE -----------------------------------------------*/
@@ -106,6 +121,11 @@ a {
   font-size: 2em;
 }
 
+#texto-sobre {
+  animation: fadeInUp;
+  animation-duration: 3s;
+}
+
 /*-------------------------------------------- NOVIDADES --------------------------------------------*/
 
 #pg-novidades {
@@ -123,7 +143,7 @@ h2 {
   font-size: 1.15em;
 }
 
-#titulo-principal {
+.titulo-principal {
   text-align: center;
 }
 
