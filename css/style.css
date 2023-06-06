@@ -1,373 +1,414 @@
 /*--------------------------------------- FORMATAÇÕES GERAIS ---------------------------------------*/
 
 body {
-    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
-    margin: 0%;
-    background: #e6e6e6;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  margin: 0%;
+  background: #e6e6e6;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*---------------------------------------------- MENU ----------------------------------------------*/
 
 #area-menu {
-    color: white;
-    background: #8B0000;
-    padding: 15px;
-    text-align: center;
+  color: white;
+  background: #8b0000;
+  padding: 15px;
+  text-align: center;
 }
 
 #area-menu a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /*-------------- ÁREA LOGO --------------*/
 
 #area-logo {
-    padding: 10px;
+  padding: 10px;
 }
 
 #area-logo #logo {
-    font-size: 2.5em;
-    font-weight: bold;
-    text-shadow: 3px 3px rgb(0, 0, 0);
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 #logo .games {
-    color: rgb(204, 83, 83);
+  color: rgb(204, 83, 83);
 }
 
 #area-logo #logo:hover {
-    text-shadow: -3px -3px rgb(0, 0, 0);
+  text-shadow: -3px -3px rgb(0, 0, 0);
 }
 
 /*----------- ÁREA NAVEGAÇÃO -----------*/
 
 #area-menu #area-links {
-    padding: 10px;
+  padding: 10px;
 }
 
 #area-menu #area-links a {
-    padding: 2px 8px;
+  padding: 2px 8px;
 }
 
 #area-menu #area-links a:hover {
-    color: #8B0000;
-    background: white;
-    border-radius: 5px;
+  color: #8b0000;
+  background: white;
+  border-radius: 5px;
 }
 
 /*------------- SUBHEADER --------------*/
 
 #subheader {
-    color: white;
-    background: #B22222;
-    text-align: center;
-    line-height: 40px;
-    height: 40px;
+  color: white;
+  background: #b22222;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
 }
 
 /*---------------------------------------------- HOME ----------------------------------------------*/
 
 #desenvolvendo {
-    color: #8B0000;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    line-height: 80vh;
+  color: #8b0000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80vh;
+}
+
+/*--------------------------------------------- SOBRE -----------------------------------------------*/
+
+#pg-sobre {
+  background: radial-gradient(#c63232, #8b0000, #000000);
+}
+
+#sobre {
+  color: white;
+  text-shadow: 3px 3px #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  height: 100vh;
+}
+
+#texto-sobre {
+  position: relative;
+  top: 40%;
+}
+
+#sobre h2 {
+  color: white;
+  margin-top: 0px;
+  font-size: 2em;
 }
 
 /*-------------------------------------------- NOVIDADES --------------------------------------------*/
 
 #pg-novidades {
-    margin-top: 30px;
-    margin-left: 10%;
-    width: 80%;
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 80%;
 }
 
-#pg-novidades h1, h2 {
-    color: #8B0000;
+#pg-novidades h1,
+h2 {
+  color: #8b0000;
 }
 
 #pg-novidades p {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 #titulo-principal {
-    text-align: center;
+  text-align: center;
 }
 
 #texto-principal {
-    margin-bottom: 130px;
+  margin-bottom: 65px;
+  font-size: 2em;
 }
 
 .div-novidade {
-    clear: both;
+  clear: both;
+  border-bottom: 1px solid #8b0000;
 }
 
 .vazio-titulo {
-    float: left;
-    width: 560px;
-    height: 1px;
-    margin-right: 1%;
+  float: left;
+  width: 560px;
+  height: 1px;
+  margin-right: 1%;
 }
 
 .titulo-novidade {
-    float: left;
-    width: 900px;
-    text-align: center;
+  float: left;
+  width: 900px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.titulo-novidade2 {
+  float: left;
+  width: 900px;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 3%;
 }
 
 .video {
-    float: left;
-    margin-bottom: 130px;
-    clear: both;
+  float: left;
+  margin-bottom: 65px;
+  clear: both;
 }
 
 .video2 {
-    float: right;
-    margin-bottom: 130px;
-    clear: both;
+  float: right;
+  margin-bottom: 65px;
+  clear: both;
 }
 
 .novidade {
-    float: left;
-    width: 900px;
-    margin: 1%;
-    text-align: justify;
+  float: left;
+  width: 900px;
+  margin: 1%;
+  text-align: justify;
 }
 
 .novidade2 {
-    float: right;
-    width: 900px;
-    margin: 1%;
-    text-align: justify;
+  float: right;
+  width: 900px;
+  margin: 1%;
+  text-align: justify;
 }
 
 /*-------------------------------------------- CONTATO ----------------------------------------------*/
 
 #pg-contato {
-    margin-top: 30px;
-    margin-left: 11%;
+  margin-top: 30px;
+  margin-left: 11%;
 }
 
-#pg-contato h2,#pg-contato h3 {
-    color: #8B0000;
-    margin: 0%;
+#pg-contato h2,
+#pg-contato h3 {
+  color: #8b0000;
+  margin: 0%;
 }
 
 #header-contato {
-    margin: 0% 0% 1% 0%;
+  margin: 0% 0% 1% 0%;
 }
 
 .div-contato {
-    background: white;
-    width: 40%;
-    float: left;
-    margin: 0% 1% 1% 0%;
-    padding: 1.5%;
-    border: 1px solid #8B0000;
-    border-radius: 10px;
+  background: white;
+  width: 40%;
+  float: left;
+  margin: 0% 1% 1% 0%;
+  padding: 1.5%;
+  border: 1px solid #8b0000;
+  border-radius: 10px;
 }
 
 #div-chat #botao-atendimento {
-    color: white;
-    background: #B22222;
-    padding: 4px 7px;
-    border: 1px solid white;
-    border-radius: 7px;
-    font-weight: bolder;
+  color: white;
+  background: #b22222;
+  padding: 4px 7px;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-weight: bolder;
 }
 
 #div-chat #botao-atendimento:hover {
-    color: #B22222;
-    background: white;
-    border-color: #B22222;
+  color: #b22222;
+  background: white;
+  border-color: #b22222;
 }
 
 #icone-chat {
-    float: left;
-    margin-right: 4px;
-    width: 20px;
-    position: relative;
-    top: 2px;
+  float: left;
+  margin-right: 4px;
+  width: 20px;
+  position: relative;
+  top: 2px;
 }
 
 #icone-sac {
-    float: left;
-    margin-right: 4px;
-    width: 22px;
+  float: left;
+  margin-right: 4px;
+  width: 22px;
 }
 
 #icone-faleconosco {
-    float: left;
-    width: 27px;
-    position: relative;
-    bottom: 3px;
-    right: 2px;
+  float: left;
+  width: 27px;
+  position: relative;
+  bottom: 3px;
+  right: 2px;
 }
 
 #icone-atendimento {
-    float: left;
-    width: 23px;
-    margin-right: 2px;
-    position: relative;
-    bottom: 1px;
+  float: left;
+  width: 23px;
+  margin-right: 2px;
+  position: relative;
+  bottom: 1px;
 }
 
 #div-sac a {
-    color: #8B0000;
-    font-weight: bold;
+  color: #8b0000;
+  font-weight: bold;
 }
 
-#div-faleconosco, #div-atendimento {
-    width: 84%;
+#div-faleconosco,
+#div-atendimento {
+  width: 84%;
 }
 
 #div-faleconosco a {
-    color: #8B0000;
-    font-weight: bold;
+  color: #8b0000;
+  font-weight: bold;
 }
 
 #div-faleconosco p {
-    margin-bottom: 0px;
-    clear: both;
+  margin-bottom: 0px;
+  clear: both;
 }
 
 #div-atendimento label {
-    color: #8B0000;
-    font-weight: bold;
+  color: #8b0000;
+  font-weight: bold;
 }
 
 #div-atendimento #input-mensagem {
-    height: 150px;
+  height: 150px;
 }
 
 #div-atendimento .input-form {
-    width: 45%;
-    margin-bottom: 20px;
+  width: 45%;
+  margin-bottom: 20px;
 }
 
 #div-atendimento button {
-    width: 245px;
-    color: white;
-    background: #B22222;
-    padding: 4px 7px;
-    border: 1px solid white;
-    border-radius: 7px;
-    font-weight: bold;
+  width: 245px;
+  color: white;
+  background: #b22222;
+  padding: 4px 7px;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-weight: bold;
 }
 
 #div-atendimento button:hover {
-    color: #B22222;
-    background: white;
-    border-color: #B22222;
+  color: #b22222;
+  background: white;
+  border-color: #b22222;
 }
 
 #div-atendimento h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #contato p {
-    margin: 0px;
-    margin-bottom: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
 }
+
 /*--------------------------------------------- RODAPÉ ---------------------------------------------*/
 
 #area-rodape {
-    color: white;
-    background: #B22222;
-    font-size: 0.9em;
-    clear: both;
+  color: white;
+  background: #b22222;
+  font-size: 0.9em;
+  clear: both;
 }
 
 #area-rodape a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /*-------------- RODAPÉ 1 --------------*/
 
 #rodape1 {
-    background: #B22222;
+  background: #b22222;
 }
 
 .coluna-rodape1 {
-    width: 15%;
-    padding: 1.5%;
-    float: left;
-    margin-right: 3%;
+  width: 15%;
+  padding: 1.5%;
+  float: left;
+  margin-right: 3%;
 }
 
 .coluna-rodape1 h3 {
-    margin: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 #coluna1-rodape {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 .coluna-rodape1 #area-links a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .coluna-rodape1 #area-links a:hover {
-    color: rgb(248, 194, 190);
+  color: rgb(248, 194, 190);
 }
 
 #rodape1-voltar {
-    width: 50px;
+  width: 50px;
 }
 
 #botao-voltar {
-    border: 3px solid white;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    position: relative;
-    top: 60px;
-    left: 50px;
+  border: 3px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  top: 60px;
+  left: 50px;
 }
 
 #botao-voltar img {
-    width: 50px;
-    position: relative;
-    bottom: 3px;
+  width: 50px;
+  position: relative;
+  bottom: 3px;
 }
 
 /*-------------- RODAPÉ 2 --------------*/
 
 #rodape2 {
-    background: #8B0000;
-    padding: 12px;
-    text-align: center;
-    clear: both;
+  background: #8b0000;
+  padding: 12px;
+  text-align: center;
+  clear: both;
 }
 
 #desenvolvedores {
-    padding: 5px 0px 10px 0px;
+  padding: 5px 0px 10px 0px;
 }
 
 .icon-email {
-    width: 18px;
-    position: relative;
-    top: 4px;
-    left: 1px;
+  width: 18px;
+  position: relative;
+  top: 4px;
+  left: 1px;
 }
 
 .icon-in {
-    width: 16px;
-    position: relative;
-    top: 2px;
-    left: 1px;
+  width: 16px;
+  position: relative;
+  top: 2px;
+  left: 1px;
 }
 
 #rodape2 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*--------------------------------------------- CORES ---------------------------------------------*/
