@@ -10,6 +10,18 @@ a {
   text-decoration: none;
 }
 
+.center {
+  text-align: center;
+}
+
+#desenvolvendo {
+  line-height: 100vh;
+  text-align: center;
+  color: #8b0000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 /*---------------------------------------------- MENU ----------------------------------------------*/
 
 #area-menu {
@@ -78,7 +90,8 @@ a {
   width: 80%;
 }
 
-#pg-home h1,h2 {
+#pg-home h1,
+#pg-home h2 {
   color: #8b0000;
 }
 
@@ -95,38 +108,8 @@ a {
   text-align: center;
 }
 
-/*--------------------------------------------- SOBRE -----------------------------------------------*/
 
-#pg-sobre {
-  background: radial-gradient(#c63232, #8b0000, #000000);
-}
 
-#sobre {
-  color: white;
-  text-shadow: 3px 3px #000000;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.5em;
-  height: 100vh;
-}
-
-#texto-sobre {
-  position: relative;
-  top: 40%;
-}
-
-#sobre h2 {
-  color: white;
-  margin-top: 0px;
-  font-size: 2em;
-}
-
-#texto-sobre {
-  animation: fadeInUp;
-  animation-duration: 3s;
-}
-
-/*-------------------------------------------- NOVIDADES --------------------------------------------*/
 
 #pg-novidades {
   margin-top: 30px;
@@ -135,7 +118,7 @@ a {
 }
 
 #pg-novidades h1,
-h2 {
+#pg-novidades h2 {
   color: #8b0000;
 }
 
@@ -205,6 +188,179 @@ h2 {
   text-align: justify;
 }
 
+/*--------------------------------------------- SOBRE -----------------------------------------------*/
+
+#pg-sobre {
+  font-size: 1.5em;
+}
+
+#pg-sobre #div-conteudo1, 
+#pg-sobre #div-conteudo3 {
+  background: #e6e6e6;
+  height: 100vh;
+}
+
+#pg-sobre #div-conteudo2 {
+  background: #b22222;
+  height: 100vh;
+}
+
+#conteudo-sobre, #comunidade {
+  position: relative;
+  top: 30%;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeInUp;
+  animation-duration: 3s;
+}
+
+#conteudo-sobre h2 {
+  color: #8b0000;
+  margin: 0px;
+  font-size: 2.3em;
+  font-variant: small-caps;
+}
+
+#conteudo-sobre p {
+  margin: 5px 0px 5px 0px;
+}
+
+#conteudo-sobre #creditos-sobre {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.conheca-mais {
+  position: relative;
+  top: 180px;
+  color: #8b0000;
+  font-size: 0.8em;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.conheca-mais img {
+  margin-top: 10px;
+  width: 20px;
+}
+
+/*-------------------------------------------- ESPORTS ----------------------------------------------*/
+
+#noticias-esports {
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+#noticias-esports .noticia img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#noticias-esports .noticia h3 {
+  margin: 10px 0px 5px 0px;
+  color: #8b0000;
+  font-size: 1.8em;
+}
+
+.box-noticia {
+  display: inline-block;
+  width: 49%;
+}
+
+#esports-coluna1 {
+  margin: 0% 0% 2% 0%;
+}
+
+.noticia {
+  background: #fff;
+  padding: 2%;
+  border: 1px solid #8b0000;
+  border-radius: 15px;
+}
+
+.direita {
+  float: right;
+}
+
+.data-noticia {
+  color: black;
+}
+
+/*-------------- TABELAS CAMPEONATOS --------------*/
+
+#tabelas-campeonatos {
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  border-top: 2px solid #8b0000;
+}
+
+#tabelas-campeonatos h2 {
+  color: #8b0000;
+  text-align: center;
+  font-size: 1.9em;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.tabela-campeonatos {
+  background: white;
+  border: 1px solid #8b0000;
+  border-radius: 15px;
+  padding: 1%;
+  width: 30%;
+  display: inline-block;
+  margin-right: 1.4%;
+}
+
+.ultima-tabela {
+  margin-right: 0%;
+}
+
+.tabela-campeonatos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-campeonatos th {
+  line-height: 40px;
+  padding: 0px 10px 0px 10px;
+}
+
+.tabela-campeonatos .titulo-tabela{
+  background: #b84444;
+  color: white;
+  border-radius: 10px;
+}
+
+.titulo-tabela h3 {
+  margin: 2px;
+}
+
+.tabela-campeonatos td {
+  border-bottom: 1px solid #8b0000;
+}
+
+.colocacao {
+  border-radius: 10px;
+  width: 10%;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.equipe {
+  padding-left: 0%;
+}
+
+.premiacao {
+  text-align: center;
+}
+
 /*-------------------------------------------- CONTATO ----------------------------------------------*/
 
 #pg-contato {
@@ -218,7 +374,7 @@ h2 {
   margin: 0%;
 }
 
-#header-contato {
+#pg-contato #header-contato {
   margin: 0% 0% 1% 0%;
 }
 
@@ -432,3 +588,7 @@ h2 {
 }
 
 /*--------------------------------------------- CORES ---------------------------------------------*/
+
+.branco {
+  color: #fff;
+}
