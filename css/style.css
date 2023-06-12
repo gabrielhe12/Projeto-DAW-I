@@ -84,33 +84,6 @@ a {
 
 /*---------------------------------------------- HOME ----------------------------------------------*/
 
-#pg-home {
-  margin-left: 10%;
-  margin-top: 30px;
-  width: 80%;
-}
-
-#pg-home h1,
-#pg-home h2 {
-  color: #8b0000;
-}
-
-#pg-home p {
-  font-size: 1.15em;
-}
-
-#RPG, #Indie, #FPS, #Action {
-  display: inline-block;
-  margin: 2%;
-}
-
-#pg-home h2 {
-  text-align: center;
-}
-
-
-
-
 #pg-novidades {
   margin-top: 30px;
   margin-left: 10%;
@@ -194,18 +167,12 @@ a {
   font-size: 1.5em;
 }
 
-#pg-sobre #div-conteudo1, 
-#pg-sobre #div-conteudo3 {
+#pg-sobre #div-conteudo1 {
   background: #e6e6e6;
   height: 100vh;
 }
 
-#pg-sobre #div-conteudo2 {
-  background: #b22222;
-  height: 100vh;
-}
-
-#conteudo-sobre, #comunidade {
+#conteudo-sobre {
   position: relative;
   top: 30%;
   width: 40%;
@@ -233,16 +200,155 @@ a {
 
 .conheca-mais {
   position: relative;
-  top: 180px;
+  top: 230px;
   color: #8b0000;
   font-size: 0.8em;
   width: 200px;
+  display: inline-block;
+}
+
+.conheca-mais img,
+.conheca-mais-valores img {
+  margin-top: 10px;
+  width: 20px;
+}
+
+.seta-voltar {
+  position: relative;
+  bottom: 200px;
+  font-size: 0.8em;
+  width: 200px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.seta-voltar img,
+.seta-voltar-valores img {
+  width: 20px;
+}
+
+/*-------------- COMUNIDADE --------------*/
+
+#pg-sobre #div-conteudo2 {
+  background: radial-gradient(#8b0000, #992626, #CC5353);
+  height: 100vh;
+}
+
+#conteudo-comunidade {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 28%;
   margin: 0 auto;
 }
 
-.conheca-mais img {
-  margin-top: 10px;
-  width: 20px;
+#comunidade {
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+}
+
+#comunidade h2 {
+  color: white;
+  margin: 0px;
+  font-size: 2.3em;
+  font-variant: small-caps;
+}
+
+#comunidade p {
+  color: white;
+  margin: 5px 0px 5px 0px;
+}
+
+#imagem-comunidade {
+  display: inline-block;
+  width: 50%;
+}
+
+#imagem-comunidade img {
+  width: 250px;
+  position: relative;
+  bottom: 20px;
+}
+
+#comunidade a {
+  color: skyblue;
+}
+
+/*-------------- NOSSOS VALORES --------------*/
+
+#pg-sobre #div-conteudo3 {
+  background: #e6e6e6;
+}
+
+#conteudo-valores {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#conteudo-valores h2 {
+  color: #8b0000;
+  text-align: center;
+  font-size: 2.3em;
+  font-variant: small-caps;
+}
+
+.valores {
+  width: 30.2%;
+  height: 500px;
+  background: white;
+  display: inline-block;
+  margin: 0% 1% 0% 0%;
+  border: 1px solid #8b0000;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+.valores2 {
+  width: 47.1%;
+  height: 400px;
+  margin-bottom: 5%;
+}
+
+.valores h3 {
+  color: #8b0000;
+  margin: 1% 0% 0% 0%;
+}
+
+.valores li {
+  list-style-image: url('../imagens/controle-vermelho.png');
+  list-style-position: inside;
+  margin-right: 50px;
+}
+
+.primeiro-valor {
+  float: left;
+}
+
+.ultimo-valor {
+  float: right;
+  margin: 0%;
+}
+
+.conheca-mais-valores {
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+  color: #8b0000;
+  font-size: 0.8em;
+  width: 200px;
+  display: inline-block;
+}
+
+.seta-voltar-valores {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 0.8em;
+  width: 200px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 /*-------------------------------------------- ESPORTS ----------------------------------------------*/
@@ -312,6 +418,7 @@ a {
   border: 1px solid #8b0000;
   border-radius: 15px;
   padding: 1%;
+  padding-bottom: 0.5%;
   width: 30%;
   display: inline-block;
   margin-right: 1.4%;
@@ -327,12 +434,13 @@ a {
 }
 
 .tabela-campeonatos th {
+  color: #8b0000;
   line-height: 40px;
   padding: 0px 10px 0px 10px;
 }
 
 .tabela-campeonatos .titulo-tabela{
-  background: #b84444;
+  background: #8b0000;
   color: white;
   border-radius: 10px;
 }
@@ -345,7 +453,12 @@ a {
   border-bottom: 1px solid #8b0000;
 }
 
+.ultima-linha td {
+  border-color: white;
+}
+
 .colocacao {
+  color: #8b0000;
   border-radius: 10px;
   width: 10%;
   line-height: 30px;
@@ -527,17 +640,30 @@ a {
   margin-left: 20%;
 }
 
-.coluna-rodape1 #area-links a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.coluna-rodape1 #area-links a:hover {
-  color: rgb(248, 194, 190);
-}
-
 #rodape1-voltar {
   width: 50px;
+}
+
+#area-links-rodape {
+  padding-left: 30%;
+  width: 70%;
+}
+
+#area-links-rodape h3 {
+  text-align: center;
+}
+
+#area-links-rodape a:hover {
+  color: lightblue;
+}
+
+#coluna2-rodape {
+  text-align: center;
+}
+
+#coluna2-rodape #logo {
+  position: relative;
+  top: 50px;
 }
 
 #botao-voltar {
@@ -588,6 +714,10 @@ a {
 }
 
 /*--------------------------------------------- CORES ---------------------------------------------*/
+
+.cor-principal {
+  color: #8b0000;
+}
 
 .branco {
   color: #fff;
